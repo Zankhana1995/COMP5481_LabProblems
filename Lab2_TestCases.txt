@@ -1,0 +1,95 @@
+Test Case 1
+Input:
+1
+cbb cc
+1
+Output:
+Unigram c
+
+Test Case 2
+Input:
+2
+zop et wel nm az
+zoaz te le wnazm
+2
+Output:
+Bigram az
+
+Test Case 3
+Input:
+1
+abababababababababa
+3
+Output:
+Trigram aba
+
+Test Case 4
+Input:
+6
+kjahfkasdhnfkj neravnwaevo qoegj ehg oiqjrvoirjtvkjreovj
+elwrj qerj kljeqlkg let jglkjerklgltejhglk gt glt rgtrklltr lk tgjjtv
+i
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,
+........................................................t
+t..........................................................
+3
+Output:
+Trigram glk
+
+Test Case 5
+Input:
+5
+dr. orooji,
+i have made test data for problem trigram.
+i will bring it to local contest to give it to jason.
+sincerely,
+raymond
+1
+Output:
+Unigram o
+
+Test Case 6
+Input:
+6
+jfxuezcxrodffrdxmebf.emxfuulifseewwbsi patmlwzunp
+,bfwzmdtchvtuvsfrgreneurbrxreqqtwqfsiih k,eimefu
+q rknnufnsykfinhiog iiv yvxzqzg.hgzyzklowi bjyvlgoxyiatlhq,hpbi.
+swexewucpnnd.xv.ebwpeseucrq sfhjz tygchfdyhudb rxcuvy.jq.xbgqd.wdeedtg
+niccfg
+latjggrwffcs,nmsmkrctxujgjo.mmb,h,.bmu,mtvdravg.th cbs
+2
+Output:
+Bigram at
+
+Test Case 7
+Input:
+26
+.zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+yyyyyyyyyyyyyyyyyyyyyyyyyyy
+,xxxxxxxxxxxxxxxxxxxxxxxxxx
+wwwwwwwwwwwwwwwwwwwwwwwww
+vvvvvvvvvvvvvvvvvvvvvvvv
+uuuuuuuuuuuuuuuuuuuuuuu
+tttttttttttttttttttttt 
+.sssssssssssssssssssss
+rrrrrrrrrrrrrrrrrrrr
+qqqqqqqqqqqqqqqqqqq
+pppppppppppppppppp
+ooooooooooooooooo
+nnnnnnnnnnnnnnnn
+mmmmmmmmmmmmmmm
+llllllllllllll
+kkkkkkkkkkkkk
+jjjjjjjjjjjj
+iiiiiiiiiii
+hhhhhhhhhh
+ggggggggg
+ffffffff
+eeeeeee
+dddddd
+ccccc
+bbbb
+aaa 
+3
+Output:
+Trigram zzz
